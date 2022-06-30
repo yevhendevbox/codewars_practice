@@ -1,3 +1,11 @@
+/**
+ * mirrorImage - take arr of numbers, returning the array of looklikes
+ * @param  {array[number]} array of numbers
+ * check every element to be equal with next elemet, or
+ * equal with next element mirror reflection
+ * return pare array or [-1, -1] instead
+ */
+
 const checkNum = (prev, next) => {
   if (prev === undefined || next === undefined) return false;
   if (prev === next) return true;

@@ -1,3 +1,10 @@
+/**
+ * tailAndHead - take arr of numbers, returning the multiply
+ * @param  {array[number]} array of numbers
+ * first create an array of sum (lastNum of element+ first num of next element)
+ * then multiply all the elements of array
+ */
+
 const last = num => +num.toString().slice(-1);
 const first = num => +num.toString().slice(0, 1);
 

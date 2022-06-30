@@ -1,3 +1,10 @@
+/**
+ * countGrade - take arr of numbers, returning the object
+ * @param  {array[number]} array of numbers
+ * filter the grades depends of condition
+ * and add counter to exac key in final object
+ */
+
 const countGrade = arr => {
   return {
     S: arr.filter(el => el === 100).length,
