@@ -101,6 +101,24 @@ function compareObjects(first, second) {
   * @returns {?}
 */
 
-function invokeMethod(){
+function invokeMethod(obj, path, method, params){
+  const newPath = path.split('.');
 
+  const target = newPath.reduce((acc, key) => {
+    acc = acc[key] ? acc[key] : obj[key];
+    return acc;
+  }, {});
+
+  return Array.prototype[method].apply(target, params);
 };
+
+/**
+  * Task description: Write a method that makes a deep check is an object empty
+  * Empty values: '', null, NaN, undefined, [], {}
+  * Expected Result: ({}) => true,
+      ({ a: { b: undefined } }) => true,
+      ({ a: { b: [] } }) => true
+  * Task complexity: 3 of 5
+  * @param {?} element - Object with values of any data types
+  * @returns {boolean}
+*/

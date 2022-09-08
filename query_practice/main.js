@@ -39,6 +39,7 @@ function loadUsers() {
     usersList.appendChild(ul);
 
     response.forEach(({name}) => {
+      console.log('💩');
       const li = document.createElement('li');
       li.textContent = name;
       ul.appendChild(li);
