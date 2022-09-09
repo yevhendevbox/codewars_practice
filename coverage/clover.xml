@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1662722089370" clover="3.2.0">
+  <project timestamp="1662722089370" name="All files">
+    <metrics statements="28" coveredstatements="4" conditionals="15" coveredconditionals="3" methods="12" coveredmethods="1" elements="55" coveredelements="8" complexity="0" loc="28" ncloc="28" packages="1" files="1" classes="1"/>
+    <file name="objects_practice.js" path="/home/yevhen/projects/practice/codewars_practice/objects_practice.js">
+      <metrics statements="28" coveredstatements="4" conditionals="15" coveredconditionals="3" methods="12" coveredmethods="1"/>
+      <line num="11" count="3" type="cond" truecount="3" falsecount="0"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="27" count="0" type="stmt"/>
+      <line num="28" count="0" type="stmt"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="31" count="0" type="stmt"/>
+      <line num="44" count="0" type="stmt"/>
+      <line num="45" count="0" type="stmt"/>
+      <line num="46" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="47" count="0" type="stmt"/>
+      <line num="50" count="0" type="stmt"/>
+      <line num="54" count="0" type="stmt"/>
+      <line num="55" count="0" type="stmt"/>
+      <line num="56" count="0" type="stmt"/>
+      <line num="71" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="72" count="0" type="stmt"/>
+      <line num="73" count="0" type="stmt"/>
+      <line num="87" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="88" count="0" type="stmt"/>
+      <line num="89" count="0" type="cond" truecount="0" falsecount="4"/>
+      <line num="91" count="0" type="stmt"/>
+      <line num="106" count="0" type="stmt"/>
+      <line num="108" count="0" type="stmt"/>
+      <line num="109" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="110" count="0" type="stmt"/>
+      <line num="113" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>

@@ -8,7 +8,8 @@
  * @returns {boolean}
  */
 
-const checkObject = obj => typeof obj === 'object' && !Array.isArray(obj) && !null;
+const checkObject = obj => typeof obj === 'object' && !Array.isArray(obj) && obj !== null;
+module.exports = checkObject;
 
 /**
   * Task description: Write a method that returns a deep array like [[key, value]]
@@ -111,6 +112,7 @@ function invokeMethod(obj, path, method, params){
 
   return Array.prototype[method].apply(target, params);
 };
+
 
 /**
   * Task description: Write a method that makes a deep check is an object empty
